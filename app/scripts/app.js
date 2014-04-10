@@ -4,7 +4,8 @@ angular.module('howToBeYoloApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'firebase'
 ])
   .config(function ($routeProvider, $locationProvider) {
     $routeProvider
